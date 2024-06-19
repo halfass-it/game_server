@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CACHE="$XDG_CACHE_HOME/halfass-it/gameplay_server"
+CACHE="$XDG_CACHE_HOME/halfass-it/game_server"
 VENV="$CACHE/.venv"
 PYTHON="/usr/bin/python3.12"
 PIP="$VENV/bin/pip"

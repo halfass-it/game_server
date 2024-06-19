@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CACHE="$XDG_CACHE_HOME/halfass-it/auth_server"
+CACHE="$XDG_CACHE_HOME/halfass-it/game_server"
 VENV="$CACHE/.venv"
 POETRY="$VENV/bin/poetry"
 if [ ! -d "$VENV" ]; then

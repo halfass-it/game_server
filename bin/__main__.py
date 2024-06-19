@@ -3,7 +3,7 @@ import asyncio
 
 from jsonargparse import CLI
 
-from server.server import Server
+from game_server.game_server import GameServer
 
 
 class Main:
@@ -15,7 +15,7 @@ class Main:
     self.cache_dir: str = cache_dir
 
   def run(self):
-    server = Server(self.ip, self.port, self.buffer_size, self.timeout, self.cache_dir)
+    server = GameServer(self.ip, self.port, self.buffer_size, self.timeout, self.cache_dir)
     asyncio.run(server.start())
 
 

@@ -1,3 +1,3 @@
-class Gameplay:
+class Game:
   def __init__(self):
     pass
